@@ -1,0 +1,30 @@
+
+
+body {
+    background-color: lightblue;
+}
+
+/* Use 
+display grid
+grid-template-columns
+gird-column-start
+gap
+*/
+
+/*
+Use page_1_style as an example for what to do here. You need to add properties
+*/
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+    gap: 10px; /*Play with this value*/
+
+}
+
+.item {
+    padding: 10px;
+    background-color: orange;
+    border: 1px solid black;
+}
